@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "La Flibustisre";
+  src: url(https://res.cloudinary.com/areeba/raw/upload/v1650492268/La_Flibusti%C3%A8re.ttf);
+}
+
+body {
+  overflow: hidden;
+}
+
+:host{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wedding-card {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  perspective: 1000px;
+  /*width: 500px;*/
+  /*height: 500px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: #be8d49;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: "La Flibustisre";
+  color: #be8d49;
+}
+
+.classh1 {
+  font-family: "La Flibustisre";
+  color: #be8d49;
+  font-size: 30px !important;
+}
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 252, 252);
+  /* background: url('https://res.cloudinary.com/areeba/image/upload/v1650488986/938ba925943764901f2c2889ea835d42--dark-navy-blue-cobalt-blue.jpg'); */
+  object-fit: cover;
+  /*width: 500px;*/
+  /*height: 500px;*/
+  position: absolute;
+  margin-left: auto;
+  border-left: 1px solid rgb(181, 119, 41);
+  transform-origin: left center;
+  transition: 2s;
+  margin-right: auto;
+  max-height: 700px;
+  max-width: 400px;
+}
+
+.container img{
+  width: 30%;
+  height: 15%;
+}
+
+.invite h1 {
+  
+  text-align: center;
+  font-size: 45px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#f7d182, #a16a2a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  width: 200px;
+  border-top: 0.5px solid rgb(181, 119, 41) !important;
+  border: none;
+}
+
+.invite {
+  margin-top: 30px;
+  position: relative;
+  /*top: -140px;*/
+}
+
+.border-1 {
+  width: 200px;
+  position: absolute;
+}
+
+.border-2 {
+  /* width: 200px;
+  transform: scaleX(-1);
+  float: right; */
+  width: 200px;
+  transform: scaleY(1) scaleX(-1);
+  position: absolute;
+
+  right: 0px;
+}
+
+.border-3 {
+  width: 200px;
+  transform: scaleY(-1);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.border-4 {
+  width: 200px;
+  transform: scaleY(-1) scaleX(-1);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.cover {
+  background: rgba(255,255,255, 1);
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* background-color: #5e3808; */
+  /*background: url("https://st2.depositphotos.com/4695555/7084/i/450/depositphotos_70847789-stock-photo-brown-packing-paper-background.jpg");*/
+  object-fit: cover;
+  /*width: 500px;*/
+  /*height: 500px;*/
+  max-height: 700px;
+  max-width: 400px;
+  transform-origin: left center;
+  transition: 2s;
+  z-index: 1;
+  /*position: absolute;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+
+.cover:hover {
+  transform: rotateY(-100deg);
+}
+
+.cover-style {
+  /*width: 600px;*/
+  /*height: 600px;*/
+  position: relative;
+  margin-left: auto;
+}
+
+.border-decoration{
+  width: 25%;
+  height: 25%;
+}
+
+.text-cover-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-boyfriends-text{
+  /*font-size: 15vw;*/
+  font-size: 55px !important;
+  font-weight: bold;
+}
+
+.base-text-cover{
+  /*font-size: 10vw;*/
+  margin-top: 110px !important;
+  margin-bottom: -30px !important;
+  font-size: 55px;
+  background: -webkit-linear-gradient(#e7dede, #2e0505);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.base-text-cover1{
+  /*font-size: 10vw;*/
+  font-size: 65px ;
+  background: -webkit-linear-gradient(#777575, #b33b3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.base-text-cover2{
+  /*font-size: 10vw;*/
+  font-size: 65px ;
+  background: -webkit-linear-gradient(#777575,  #b33b3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.base-text-cover3{
+  /*font-size: 10vw;*/
+  font-size: 65px ;
+  background: -webkit-linear-gradient(#777575,  #b33b3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.base-text-cover4{
+  /*font-size: 10vw;*/
+  font-size: 30px;
+  margin-right: 80px !important;
+  background: -webkit-linear-gradient(#777575, #b33b3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cover-heading {
+  position: relative;
+  bottom: 495px;
+  left: 85px;
+  font-size: 10vw;
+  background: -webkit-linear-gradient(#777575, #ce9a9a);
+  /* background: -webkit-linear-gradient(#F7D182, #A16A2A); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cover-heading2 {
+  position: relative;
+  bottom: 540px;
+  left: 40px;
+  background: -webkit-linear-gradient(#777575, #ce9a9a);
+  /* background: -webkit-linear-gradient(#F7D182, #A16A2A); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10vw;
+}
+
+.cover-heading3 {
+    position: relative;
+    bottom: 460px;
+    left: 210px;
+    font-size: 10vw;
+    background: -webkit-linear-gradient(#777575, #ce9a9a);
+    /* background: -webkit-linear-gradient(#F7D182, #A16A2A); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
