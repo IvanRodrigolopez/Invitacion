@@ -42,6 +42,8 @@ h1 {
 }
 
 .classh1 {
+  text-align: center;
+
   font-family: "La Flibustisre";
   color: #be8d49;
   font-size: 30px !important;
@@ -72,9 +74,8 @@ h1 {
 }
 
 .invite h1 {
-  
   text-align: center;
-  font-size: 45px;
+  font-size: 60px !important;
   margin-top: 0px;
   margin-bottom: 0;
   background: -webkit-linear-gradient(#f7d182, #a16a2a);
@@ -178,7 +179,7 @@ hr {
 
 .base-text-cover{
   /*font-size: 10vw;*/
-  margin-top: 110px !important;
+  margin-top: 190px !important;
   margin-bottom: -30px !important;
   font-size: 55px;
   background: -webkit-linear-gradient(#e7dede, #2e0505);
